@@ -1,1 +1,5 @@
 .DS_Store
+/.idea/
+/examples/VIDEO5/School/.idea/
+/examples/VIDEO5/School/target/
+/examples/VIDEO5/School/school.iml
