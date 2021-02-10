@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+}
+
+#logo {
+    width: 25%;
+}
+
+#headerLabel {
+    width: 50%;
+    margin-top: 70px;
+    color: orangered;
+    font-family: monospace;
+    font-size: xxx-large;
+}
