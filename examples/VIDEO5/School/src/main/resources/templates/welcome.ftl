@@ -11,18 +11,18 @@
         </div>
         <div id="menu">
             <ul id="menubar">
-              <li><a class="info active" href="#home">Home</a></li>
-              <li><a class="info" href="#classrooms">Classrooms</a></li>
-              <li><a class="info" href="#staffrooms">Staffrooms</a></li>
-              <li><a class="info" href="#office">Office</a></li>
-              <li><a class="info" href="#library">Library</a></li>
-              <li><a class="info" href="#sports">Sports</a></li>
-              <li><a class="info" href="#principal">Principal</a></li>
-              <li style="background-color: red;"><a class="info" href="/private/user/welcome">Logout</a></li>
+              <li><a class="info active" href="/hi5code/private/user/welcome">Home</a></li>
+              <li><a class="info" href="/hi5code/private/user/classrooms">Classrooms</a></li>
+              <li><a class="info" href="/hi5code/private/user/staffrooms">Staffrooms</a></li>
+              <li><a class="info" href="/hi5code/private/user/office">Office</a></li>
+              <li><a class="info" href="/hi5code/private/user/library">Library</a></li>
+              <li><a class="info" href="/hi5code/private/user/sports">Sports</a></li>
+              <li><a class="info" href="/hi5code/private/user/principal">Principal</a></li>
+              <li style="background-color: red;"><a class="info" href="/hi5code/logout">Logout</a></li>
             </ul>
         </div>
         <div id="content" style="width:60%; margin:0 auto;">
-            <h1>WELCOME USER SO n SO .....</h1>
+            <h1 align="center" style="color:darkgray;margin-top: 150px;">WELCOME USER: <span style="color:#00B050;">${user.fullName}</span></h1>
         </div>
 
         <script>

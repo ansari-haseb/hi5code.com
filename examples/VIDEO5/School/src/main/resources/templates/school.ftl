@@ -11,13 +11,13 @@
         </div>
         <div id="menu">
             <ul id="menubar">
-              <li><a class="info active" href="#home">Home</a></li>
-              <li><a class="info" href="#classrooms">Classrooms</a></li>
-              <li><a class="info" href="#staffrooms">Staffrooms</a></li>
-              <li><a class="info" href="#office">Office</a></li>
-              <li><a class="info" href="#library">Library</a></li>
-              <li><a class="info" href="#sports">Sports</a></li>
-              <li><a class="info" href="#principal">Principal</a></li>
+              <li><a class="info active" href="/hi5code/">Home</a></li>
+              <li><a class="info" href="/hi5code/private/user/classrooms">Classrooms</a></li>
+              <li><a class="info" href="/hi5code/private/user/staffrooms">Staffrooms</a></li>
+              <li><a class="info" href="/hi5code/private/user/office">Office</a></li>
+              <li><a class="info" href="/hi5code/private/user/library">Library</a></li>
+              <li><a class="info" href="/hi5code/private/user/sports">Sports</a></li>
+              <li><a class="info" href="/hi5code/private/user/principal">Principal</a></li>
               <li style="background-color: red;"><a class="info" href="/hi5code/private/user/welcome">Login</a></li>
             </ul>
         </div>
