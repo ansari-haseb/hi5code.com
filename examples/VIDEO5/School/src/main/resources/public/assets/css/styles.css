@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+}
+
+#logo {
+    width: 25%;
+}
+
+#headerLabel {
+    width: 100%;
+    margin-top: 70px;
+    color: orangered;
+    font-family: monospace;
+    font-size: xxx-large;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 190px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #00B050;
+}

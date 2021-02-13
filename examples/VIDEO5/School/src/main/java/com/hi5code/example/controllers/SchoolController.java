@@ -4,9 +4,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class HelloController {
+public class SchoolController {
     @RequestMapping("/")
     public String index() {
-        return "hello";
+        return "school";
+    }
+
+    @RequestMapping("/private/user/welcome")
+    public String welcome() {
+        return "welcome";
     }
 }
