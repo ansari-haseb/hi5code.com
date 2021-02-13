@@ -2,7 +2,7 @@
     <head>
         <link rel="stylesheet" href="http://localhost:8090/hi5code/assets/css/styles.css">
         <script src="http://localhost:8090/hi5code/assets/js/myLogic.js"></script>
-        <title>Class Rooms</title>
+        <title>Library</title>
         <style>
                 table {
                     font-family: arial, sans-serif;
@@ -31,10 +31,10 @@
         <div id="menu">
             <ul id="menubar">
               <li><a class="info" href="/hi5code/private/user/welcome">Home</a></li>
-              <li><a class="info active" href="/hi5code/private/user/classrooms">Classrooms</a></li>
+              <li><a class="info" href="/hi5code/private/user/classrooms">Classrooms</a></li>
               <li><a class="info" href="/hi5code/private/user/staffrooms">Staffrooms</a></li>
               <li><a class="info" href="/hi5code/private/user/office">Office</a></li>
-              <li><a class="info" href="/hi5code/private/user/library">Library</a></li>
+              <li><a class="info active" href="/hi5code/private/user/library">Library</a></li>
               <li><a class="info" href="/hi5code/private/user/sports">Sports</a></li>
               <li><a class="info" href="/hi5code/private/user/principal">Principal</a></li>
               <li style="background-color: red;"><a class="info" href="/hi5code/logout">Logout</a></li>
@@ -42,7 +42,7 @@
         </div>
         <div id="content" style="width:60%; margin:0 auto;">
 
-            <h2 align="center" style="color:dodgerblue;margin-top: 90px;">Ssssshhhhhh!!!! We're in a Class Room</h2>
+            <h2 align="center" style="color:dodgerblue;margin-top: 90px;">Ssssshhhhhh!!!! We're in a Library. Silence Please !!!</h2>
 
             <div id="table-attr">
                 <table align="center">
