@@ -23,7 +23,7 @@
         </div>
         <div id="content" style="width:60%; margin:0 auto;">
             <p style="color: darkgray;margin: 90px 50px 25px 50px;">
-                My name is <strong>HASEB ANSARI</strong> and I'm an expert in using Keycloak at professional level. I'm currently working as a full-time employee in a well established firm in Germany and by profession I'm a Java Developer, DevOps( Docker, Kubernetes, CI/CD Jenkins, Git) and AWS Associate Solutions Architect.
+                My name is <strong style="color:deepskyblue">HASEB ANSARI</strong> and I'm an expert in using Keycloak at professional level. I'm currently working as a full-time employee in a well established firm in Germany and by profession I'm a Java Developer, DevOps( Docker, Kubernetes, CI/CD Jenkins, Git) and AWS Associate Solutions Architect.
             </p>
             <p style="color: darkgray;margin: 0px 50px 25px 50px;">
                 Altogether, I've 4-4.5 years of experience with Keycloak. The contents of this channel is meant for educational purpose only. For further queries, please contact me.
