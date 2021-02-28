@@ -1,0 +1,48 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>School Administration Application</display-name>
+
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Internal</web-resource-name>
+      <url-pattern>/internal/time</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>time_access</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Internal</web-resource-name>
+      <url-pattern>/internal/salary</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>salary_access</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>Internal</web-resource-name>
+      <url-pattern>/internal/download</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>download_access</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <login-config>
+    <auth-method>KEYCLOAK</auth-method>
+    <realm-name>this is ignored currently</realm-name>
+  </login-config>
+
+  <security-role>
+    <role-name>download_access</role-name>
+    <role-name>time_access</role-name>
+    <role-name>salary_access</role-name>
+  </security-role>
+</web-app>
