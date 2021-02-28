@@ -1,7 +1,5 @@
 package servlets;
 
-import util.KeycloakTokenUtil;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,15 +8,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/internal/download", name = "Download")
-public class DownloadServlet extends HttpServlet {
+@WebServlet(urlPatterns = "/public/home")
+public class PublicServlet extends HttpServlet {
 
-    private static final String INTERNAL_DOWNLOAD = "/WEB-INF/internal/download.jsp";
+    private static final String PUBLIC_HOME = "/WEB-INF/public/home.jsp";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher(INTERNAL_DOWNLOAD);
-        req.setAttribute("username", KeycloakTokenUtil.getPreferredUsername(req));
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher(PUBLIC_HOME);
         requestDispatcher.forward(req, resp);
     }
 }
