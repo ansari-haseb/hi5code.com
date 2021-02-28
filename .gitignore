@@ -1,9 +1,12 @@
 .DS_Store
 /.idea/
-/examples/VIDEO5/School/.idea/
-/examples/VIDEO5/School/target/
-/examples/VIDEO5/School/school.iml
 
 /examples/VIDEO6/IntSchool/target/
 /examples/VIDEO6/IntSchool/.idea/
 /examples/VIDEO6/IntSchool/IntSchool.iml
+/examples/VIDEO5_6_SpringBoot/School/target/
+/examples/VIDEO7_Wildfly/IntSchool/.idea/
+/examples/VIDEO7_Wildfly/IntSchool/target/
+/examples/VIDEO5_6_SpringBoot/School/.idea/
+/examples/VIDEO7_Wildfly/IntSchool/IntSchool.iml
+/examples/VIDEO5_6_SpringBoot/School/school.iml
