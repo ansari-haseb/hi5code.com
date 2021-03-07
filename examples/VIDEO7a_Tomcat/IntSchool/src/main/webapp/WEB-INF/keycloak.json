@@ -1,12 +1,11 @@
 {
   "realm": "hi5code",
-  "resource": "school-admin",
-  "realm-public-key":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg6LJJ+919F1i84R+9A/HI4XZAble3TsKu49b8mT71KzdrUZNWdNLlklHq1H2J35iu4Ehto8dJcJER0VZD4aS7uGkVITfpE3ZDiZ3gfFmqsAwC8YWq0myjPMo6C0XbbbKwuDQLkrRFUZSRBwh1D5+4MFx0Ik+1XXDMqpOViNeWVsIMB1Xfg0dU5DikQ1pBAJDxE2/JyYPj9Cp07Cdv5d0BS9OiGufhwVXOSn9883cNuVEO5MV9f81yL+Hx1xihb/golQH9xz6eqfLt/tfcZptx+/RcTFzLg/rt16lgy/8+z1oIcR5lc2LgEaebeWMAD6xSFJdDS3vafWpM+kw8l3yNQIDAQAB",
   "auth-server-url": "http://localhost:8080/auth/",
   "ssl-required": "external",
+  "resource": "school-admin-tomcat",
   "credentials": {
-    "secret": "366f324e-eef0-41f0-be2a-134942e7f73a"
+    "secret": "3580f8c7-7463-4aae-8967-378672074160"
   },
-  "use-resource-role-mappings": true,
-  "confidential-port": 0
+  "confidential-port": 0,
+  "use-resource-role-mappings": true
 }
