@@ -29,3 +29,7 @@ var refreshToken = function() {
         document.getElementById('ta-refreshToken').value = keycloak.refreshToken;
     });
 }
+
+var logout = function() {
+    keycloak.logout({"redirectUri":"http://localhost:9091/logout.html"});
+}
