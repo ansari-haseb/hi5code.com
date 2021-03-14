@@ -1,9 +1,8 @@
 {
-  "realm": "hi5code",
-  "auth-server-url": "http://localhost:8080/auth/",
-  "ssl-required": "external",
-  "resource": "hi5code-javascript",
-  "public-client": true,
-  "confidential-port": 0,
-  "enable-cors": true
-}
+    "realm": "hi5code",
+    "auth-server-url": "http://localhost:8080/auth/",
+    "ssl-required": "external",
+    "resource": "hi5code-js",
+    "public-client": true,
+    "confidential-port": 0
+  }

@@ -23,7 +23,7 @@ function pasteToken(token){
 }
 
 var refreshToken = function() {
-    keycloak.updateToken(10)
+    keycloak.updateToken(-1)
     .then(function(){
         document.getElementById('ta-token').value = keycloak.token;
         document.getElementById('ta-refreshToken').value = keycloak.refreshToken;
