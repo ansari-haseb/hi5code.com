@@ -1,5 +1,6 @@
 .DS_Store
 /.idea/
+.vscode/settings.json
 
 /examples/VIDEO5_6_SpringBoot/School/target/
 /examples/VIDEO5_6_SpringBoot/School/.idea/
@@ -15,3 +16,5 @@
 /examples/VIDEO7a_Tomcat/IntSchool/.project
 /examples/VIDEO7a_Tomcat/IntSchool/.classpath
 /examples/VIDEO7a_Tomcat/IntSchool/.settings/
+
+examples/VIDEO9_VueJsApp/hi5code-school/node_modules/*
