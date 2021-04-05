@@ -18,3 +18,7 @@
 /examples/VIDEO7a_Tomcat/IntSchool/.settings/
 
 examples/VIDEO9_VueJsApp/hi5code-school/node_modules/*
+
+examples/VIDEO10_AngularApp/hi5code-school/node_modules
+examples/VIDEO10_AngularApp/hi5code-school/e2e
+examples/VIDEO10_AngularApp/hi5code-school/dist
