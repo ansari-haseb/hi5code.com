@@ -6,21 +6,19 @@ import { environment } from 'src/environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { LogoutComponent } from './logout/logout.component';
 
 function initializeKeycloak(keycloak: KeycloakService) {
   return () => keycloak.init({
-    config: environment.keycloak,
-    initOptions: {
-      onLoad: 'login-required',
-      checkLoginIframe: true
-    }
+    config: environment.keycloak
   });
 }
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,

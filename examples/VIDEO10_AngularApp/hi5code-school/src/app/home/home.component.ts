@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
   }
 
   logout() {
-    this.keycloak.logout("http://localhost:4200")
+    this.keycloak.logout("http://localhost:4200/logout")
   }
 
   async update() {
