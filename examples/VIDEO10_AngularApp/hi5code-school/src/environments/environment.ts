@@ -4,9 +4,9 @@
 import { KeycloakConfig } from "keycloak-js";
 
 let keycloakConf: KeycloakConfig = {
-  clientId: 'hi5code-angular',
-  realm: 'hi5code',
-  url:    'http://localhost:8080/auth/'
+  clientId: 'hi5code-angular',    // Your `clientId` from Keycloak Admin Console
+  realm: 'hi5code',               // Your `realm` from Keycloak Admin Console
+  url:    'http://localhost:8080/auth/'   // URL of your keycloak installation till `/auth`
 }
 
 export const environment = {
